@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tran Thanh Lam">
+    <meta name="desciption" content="This is the first website for movie">
+    <title>Lam88</title>
+    
+    <!-- Css link -->
+    <link rel="stylesheet" href="../../../style.css">
+
+     <!--Font Awesome reference-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div id="nav">
+                <a href="../../../index.html" class="header__nav-logo">
+                    <img src="../../../assets/logo/logo-ck.png" alt="Cakhia" class="header__nav-img">
+                    <span class="header__nav-text">ThanhLam TV</span>
+                </a>
+                <ul class="nav__lists">
+                    <li class="nav__list"><a href="../../../index.html">Home</a></li>
+                    <li class="nav__list nav__list-dropdown ">
+                        <a href="../about/overview.html">About Us</a>
+                        <ul class="nav__list-dropdown-items">
+                            <li class="nav__list-dropwdown-item"><a href="../../../about/overview.html">OverView</a></li>
+                            <li class="nav__list-dropwdown-item"><a href="../../../about/policies.html">Policies</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Nav list mega -->
+                    <li class="nav__list nav__list-mega">
+                        <a href="">Live</a>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="column column__img">
+                                    <img src="../../../assets/video/giphy.webp"
+                                        alt="Ronaldo">
+                                </div>
+                                <div class="column">
+                                    <a href="clubs/fiction.html" class="column-header">Premier League</a>
+                                    <ul class="mega-links">
+                                        <li><a href="../../../clubs/Premier League/ManchesterCity.html">Manchester City</a></li>
+                                        <li><a href="../../../clubs/Premier League/ManchesterUnited.html">Manchester United</a></li>
+                                        <li><a href="">Chelsea</a></li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <a href="../La Liga" class="column-header">La Liga</a>
+                                    <ul class="mega-links">
+                                        <li><a href="../../La Liga/Barcelona.html">Barcelona</a></li>
+                                        <li><a href="../../La Liga/Real Marid.html">Real Marid</a></li>
+                                        <li><a href="../../La Liga/Atletico Madrid.html">Aletical Marid</a></li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <a href="../Serie A.html" class="column-header">Serie A </a>
+                                    <ul class="mega-links">
+                                        <li><a href="../../Serie A/Juventus.html">Juventus</a></li>
+                                        <li><a href="../../Serie A/Napoli.html">Napoli</a></li>
+                                        <li><a href="../../Serie A/Inter Milan.html">Inter Milan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav__list"><a href="">Betting</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team__slider slider__mancity"></div>
+
+        <div class="player">
+            <div class="player__detail">
+                <div class="player__detail__infor">
+                    <div class="player__detail__infor__icon">
+                        <img src="../../../assets/book_images/Premier League/Manchester City/john-stones.webp" alt="stone">
+                    </div>
+                    <div class="player__detail__infor__personal">
+                        <div class="player__detail__infor__personal-fullName">John Stone</div>
+                        <div class="player__detail__infor__personal-nation">
+                            <img src="https://resources.premierleague.com/premierleague/flags/GB-ENG.png" alt="">
+                            <span class="player__detail__infor__personal-nation-name">England</span>
+                        </div>
+                        <div class="player__detail__infor__personal-birthday">28/05/1994 (30)</div>
+                        <div class="player__detail__infor__personal-button show-infor-js">Detail informations</div>
+                    </div>
+                    <div class="modal js-modal ">
+                        <div class="modal__container js-modal-container">
+                            <div class="modal__close js-modal-close">
+                                <i class="fas fa-close"></i>
+                            </div>
+                            <div class="modal__header">Player data</div>
+                            <div class="modal__body">
+                                <div class="player__detail__infor__personal-buttonshow-date">Date of birth/Age: <span>May 28, 1994 (30)</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-birth">Place of birth: <span>Barnsley</span><img src="https://resources.premierleague.com/premierleague/flags/GB-ENG.png" alt=""></div>
+                                <div class="player__detail__infor__personal-buttonshow-height">Height: <span>1.88 m</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-value">Market Value: <span>€38.00m</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-position">Position: <span>Defender - Centre-Back</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-foot">Preferred Foot: <span>Right</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-agent">Agent: <span>Wasserman</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-club">Current club: <span>Manchester City</div>
+                                <div class="player__detail__infor__personal-buttonshow-joined">Joined: <span>Aug 9, 2016</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-expires">Contract Expires: <span>Jun 30, 2026</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-lastextension">Last Extension: <span>Aug 10, 2021</span></div>
+                                <div class="player__detail__infor__personal-buttonshow-outfitter">Outfitter: <span>Nike</span></div>
+                                <ul class="player__detail__infor__personal-buttonshow-social">
+                                    <li class="player__detail__infor__personal-buttonshow-social-link"><a href="https://www.facebook.com/JohnStonesOfficialPg?locale=vi_VN"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li class="player__detail__infor__personal-buttonshow-social-link"><a href="https://www.instagram.com/johnstones5/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="player__detail__infor__personal-buttonshow-social-link"><a href="https://www.linkedin.com/in/thanh-l%C3%A2m-09ab452a5/"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="player__detail__infor__personal-buttonshow-social-link"><a href="https://github.com/TranThanhLam2005"><i class="fa-brands fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="player__detail__shop">
+                    <div class="player__detail__shop-row">
+                        <a href="stone/clothes1.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701229580AF001_pp_01_mcfc.webp" alt="" >
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes2.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230872BB001_pp_01_mcfc.webp" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes3.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230876BB001_pp_01_mcfc.webp" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="player__detail__shop-row">
+                        <a href="stone/clothes4.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230876BE001_pp_01_mcfc.webp" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes5.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230880BB001_pp_01_mcfc.webp" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes6.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230949BB001_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="player__detail__shop-row">
+                        <a href="stone/clothes7.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230953BE001_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes8.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230962BE001_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes9.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230965BB001_pp_01_mcfc.webp" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="player__detail__shop-row">
+                        <a href="stone/clothes10.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230976AI001_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes11.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230987AF005_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                        <a href="stone/clothes12.html" class="player__detail__shop-row-item-link">
+                            <div class="player__detail__shop-row-item">
+                                <img class="player__detail__shop-row-item-img" src="../../../assets/book_images/Premier League/Manchester City/Stone/701230990AF001_pp_01_mcfc.png" alt="">
+                                <div class="player__detail__shop-row-item-title">Manchester City 'Definitely City' Jersey 2024/25 With STONES 5 printing</div>
+                                <div class="player__detail__shop-row-item-price">£ 96,00-£ 110,00</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter__box">
+                <div class="newsletter__box__content">
+                    <div class="newsletter__box__content-subscribe"><p>Subscribe</p></div>
+                    <div class="newsletter__box__content-intro">Monthly<br>newsletter</div>
+                    <div class="newsletter__box__content-desc">Subscribe to get the latest updates on new arrivals, exclusive offers, and discount promotions.</div>
+                    <div class="newsletter__box__content-email-container">
+                        <input type="email" class="newsletter__box__content-email" placeholder="Enter your email for new updates">
+                        <i class="fa fa-angle-right newsletter__box__content-sent " aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"> 
+            <div class="footer-box">
+                <div class="footer-content">
+                    <div class="column ">
+                        <a href="../index.html"><img class="header-img" src="../../../assets/logo/logo-ck.png" alt=""></a>
+                        <p class="column-text">Welcome to CAKHIAZ.LINK, one of the world’s leading online gambling brands, provides members from all over the world an option to play Sportsbook, eSports, Live Casino, Slots, lottery games and place their bets on various Sports events.</p>
+                    </div>                    
+                    <div class="column">
+                        <h3 class="column-header">Information</h3>
+                        <ul class="footer-links">
+                            <li><a href="../../../about/overview.html">About Us</a></li>
+                            <li><a href="../../../contact.html">Contact Us</a></li>
+                            <li><a href="../../../about/policies.html">Terms Of Use</a></li>
+                            <li><a href="">Affiliates</a></li>
+                            <li><a href="">Responsible Gaming</a></li>
+                            <li><a href="">Vip</a></li>
+                            <li><a href="">Info Centre</a></li>
+                            <li><a href="">Rewards</a></li>
+                            <li><a href="">Rules</a></li>
+                        </ul>
+                    </div>                    
+                    <div class="column">
+                        <h3 class="column-header">Payment Method:</h3>
+                        <ul class="footer-links-exchange">
+                            <li><a href="https://www.mastercard.com"><img src="../../../assets/logo/Mastercard-Logo.wine.svg" alt="Mastercard"></a></li>
+                            <li><a href="https://card.apple.com"><img src="../../../assets/logo/Apple_Pay-Logo.wine.svg" alt="Apple Pay"></a></li>
+                            <li><a href="https://www.paypal.com"><img src="../../../assets/logo/PayPal-Logo.wine.svg" alt="PayPal"></a></li>
+                            <li><a href="https://www.visa.com"><img src="../../../assets/logo/Visa_Inc.-Logo.wine.svg" alt="Visa"></a></li>
+                        </ul>
+                        <h3 class="column-header">Security:</h3>
+                        <ul class="footer-links-exchange">
+                            <li><a href="https://www.stanford.edu"><img src="../../../assets/logo/Stanford_University-Logo.wine.svg" alt="Stanford University"></a></li>
+                            <li><a href="https://web.mit.edu"><img src="../../../assets/logo/Massachusetts_Institute_of_Technology-Logo.wine.svg" alt="MIT"></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column">
+                        <h3 class="column-header">Official Partner</h3>
+                        <ul class="footer-links-exchange">
+                            <li><a href="https://www.uchicago.edu"><img src="../../../assets/logo/University_of_Chicago-Logo.wine.svg" alt="University of Chicago"></a></li>
+                            <li><a href="https://www.universityofcalifornia.edu"><img src="../../../assets/logo/University_of_California,_Los_Angeles-Logo.wine.svg" alt="University of California, Los Angeles"></a></li>
+                            <li><a href="https://www.nus.edu.sg"><img src="../../../assets/logo/National_University_of_Singapore-Logo.wine.svg" alt="National University of Singapore"></a></li>
+                            <li><a href="https://www.yale.edu"><img src="../../../assets/logo/Yale_University-Logo.wine.svg" alt="Yale University"></a></li>
+                        </ul>
+                        <h3 class="column-header">Powered By</h3>
+                        <ul class="footer-links-exchange">
+                            <li><a href="https://www.sportingnews.com/vn/nba"><img src="../../../assets/logo/NBA_TV_Canada-Logo.wine.svg" alt="NBA TV Canada"></a></li>
+                            <li><a href="https://www.riotgames.com"><img src="../../../assets/logo/Riot_Games-Logo.wine.svg" alt="Riot Games"></a></li>
+                            <li><a href="https://www.premierleague.com"><img src="../../../assets/logo/Premier_League-Logo.wine.svg" alt="Premier League"></a></li>
+                            <li><a href="https://www.uefa.com/uefachampionsleague"><img src="../../../assets/logo/UEFA_Champions_League-Logo.wine.svg" alt="UEFA Champions League"></a></li>
+                        </ul>
+                    </div>                                        
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">©2024 ThanhLam.com All rights reserved | 18+</div>
+    </div>
+    <script>
+        const showBtn = document.querySelector('.show-infor-js');
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close');
+        function showModal () {
+            modal.classList.add('open');
+        }
+        function hideModal () {
+            modal.classList.remove('open');
+        }
+        showBtn.addEventListener('click', showModal);
+        modalClose.addEventListener('click', hideModal);
+        modal.addEventListener('click', hideModal);
+        modalContainer.addEventListener('click', function (event){
+            event.stopPropagation();
+        })
+    </script>
+</body>
+</html>
